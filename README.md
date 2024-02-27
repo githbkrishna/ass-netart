@@ -1,6 +1,4 @@
-# React + Vite
-
-# netart assign deployed
+# Responsive netart assign using React + Vite deployed
 
 #public has this issue
 

@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* max-width: 1280px; */
+}
+
+section{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 1vw;
+}
+
+.hero{
+  width: 100%;
+  height: 700px;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.hero .prize{
+  width: 35%;
+  height: 100%;
+  /* border: 2px solid red; */
+}
+
+.hero .prize img{
+  width: 100%;
+  height: 100%;
+}
+
+.hero .content{
+  width: 65%;
+  height: 100%;
+  /* border: 2px solid goldenrod; */
+}
+
+.hero .content .logo{
+  width: 100%;
+  height: 7vw;
+}
+
+.hero .content .logo img{
+  width: 50%;
+  height: 100%;
+}
+
+.content .photo{
+  width: 100%;
+  height: 100%;
+}
+
+.content .photo h3{
+  font-weight: 600;
+  font-size: 1.3vw;
+}
+
+.content .photo ul{
+  padding: 1vw 0 1vw 2vw;
+}
+
+.content .photo ul li{
+  font-size: 1.2vw;
+}
+
+.photolist div{
+  width: 100%;
+  height: 400px;
+  margin-bottom: 1vw;
+}
+
+.photolist div img{
+  width: 100%;
+  height: 100%;
+}
+
+.photolist p{
+  font-size: 1.2vw;
+}
+
+/* hero ends  */
+
+.container{
+  width: 100%;
+  border-bottom: 2px solid red;
+  margin-top: 2vw;
+}
+
+.container h3{
+  font-size: 1vw;
+  text-align: center;
+}
+
+.container .machines{
+  width: 100%;
+  height: 400px;
+  margin: 1vw auto;
+}
+
+.container .machines img{
+  width: 85%;
+  height: 100%;
+  display: block;
+  margin: auto;
+}
+
+.container p{
+  font-size: 1.2vw;
+  text-align: center;
+  margin: 1vw auto;
+}
+
+/* .container ends  */
+
+footer{
+  text-align: center;
+  width: 100%;
+}
+
+footer h3{
+  font-size: 1.3vw;
+  margin: 1vw 0;
+}
+
+footer p{
+  font-size: 1vw;
+}
+
+footer p span{
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+  padding: 0 2px;
+}
+
+footer p:last-child span:last-child{
+  border-right: none;
+}
+
+footer .foots{
+  width: 100%;
+  height: 9vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #fff;
+  background-color: red;
+  margin-top: 1vw;
+}
+
+.foots div{
+  font-size: 1.3vw;
+}
+
+.foots i{
+  margin-right: 5px;
+}
